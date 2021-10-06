@@ -1,0 +1,26 @@
+{
+  "name": "laya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TECH-RIJUTH/laya.git"
+  },
+  "author": "Rijuth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TECH-RIJUTH/laya/issues"
+  },
+  "homepage": "https://github.com/TECH-RIJUTH/laya#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "engines": {
+    "node": "16.9.0"
+  }
+}
