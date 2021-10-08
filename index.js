@@ -4,14 +4,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  //client.user.setActivity('Chat' ,{type:"WATCHING"});
-  let stausray =[
-  `WITH KL 13 Kannur`
-  `Rohit sir Big Fan sir`
-   ]
-setInterval( () => {
- client.user.setActivity(`${statusray[Math.floor(Math.random() * statusray.length)]}`, {type: "PLAYING"})
-}, 10000);
+  client.user.setActivity('Chat' ,{type:"WATCHING"});
 });
 
 client.on('messageCreate', message => {
