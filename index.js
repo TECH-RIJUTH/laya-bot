@@ -32,6 +32,18 @@ client.on('messageCreate', message => {
 });
 
 client.on('messageCreate', message => {
+  if (message.content === 'myre') {
+    message.channel.send('ninte achan patti');
+  }
+});
+
+client.on('messageCreate', message => {
+  if (message.content === 'fuck') {
+    message.channel.send('ok,come (btw i am a bot) if u are not able to control urself , then come to me');
+  }
+});
+
+client.on('messageCreate', message => {
   if (message.content === 'i love you') {
     message.channel.send('i love you too');
   }
